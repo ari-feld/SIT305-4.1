@@ -55,7 +55,7 @@ public class Question3Activity extends AppCompatActivity {
 
             int score = getIntent().getIntExtra("SCORE", 0);
 
-            RadioButton correctAnswer = option1;
+            RadioButton correctAnswer = option2;
 
             if (selectedId != correctAnswer.getId()) {
                 selected.setTextColor(getResources().getColor(android.R.color.holo_red_light));

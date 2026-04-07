@@ -30,7 +30,7 @@
 
     <TextView
         android:id="@+id/questionText"
-        android:text="Question 4"
+        android:text="What is 5+3?"
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_marginBottom="20dp"
@@ -46,28 +46,28 @@
 
         <RadioButton
             android:id="@+id/option1"
-            android:text="Option 1"
+            android:text="5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/option2"
-            android:text="Option 2"
+            android:text="16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/option3"
-            android:text="Option 3"
+            android:text="3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/option4"
-            android:text="Option 4"
+            android:text="8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"/>
