@@ -69,7 +69,7 @@ public class EventListFragment extends Fragment {
                                     db.eventDao().delete(event);
 
                                     requireActivity().runOnUiThread(() -> {
-                                        loadEvents(); // ✅ refresh immediately
+                                        loadEvents();
                                     });
 
                                 }).start();

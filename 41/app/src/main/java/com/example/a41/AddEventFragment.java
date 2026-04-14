@@ -91,7 +91,6 @@ public class AddEventFragment extends Fragment {
             String category = inputCategory.getText().toString().trim();
             String location = inputLocation.getText().toString().trim();
 
-            // ✅ FIXED VALIDATION
             if (title.isEmpty() || selectedDateTime == 0) {
                 Toast.makeText(getContext(),
                         "Title and Date required",
@@ -118,7 +117,7 @@ public class AddEventFragment extends Fragment {
                             "Event Saved!",
                             Toast.LENGTH_SHORT).show();
 
-                    // CLEAR FORM (FIXED)
+                    // CLEAR FORM
                     inputTitle.setText("");
                     inputCategory.setText("");
                     inputLocation.setText("");
